@@ -5,8 +5,7 @@ primary_region = "iad"
   image = "duzaq/movaa-service:v1"
 
 [processes]
-   app = "npm start" 
-   #app = "supervisord -n"
+   app = "npm start"  
 
 [http_service]
   internal_port = 3000

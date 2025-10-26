@@ -5,7 +5,8 @@ primary_region = "iad"
 image = "duzaq/movaa-service:v1"
 
 [processes]
-app = "npm start" 
+#app = "npm start" 
+app = "supervisord -n"
 
 [http_service]
 auto_start_machines = true
